@@ -1,0 +1,18 @@
+# Core runtime dependencies
+openai==2.6.0
+httpx==0.28.1
+a2a-sdk==0.3.10
+a2a-sdk[all]
+langgraph==0.0.56
+
+# CLI and server utilities
+click==8.3.0
+uvicorn==0.38.0
+python-dotenv==1.1.1
+typing_extensions==4.15.0
+
+# UI
+gradio==5.49.1
+
+# Domain specific helpers
+geopy==2.4.1

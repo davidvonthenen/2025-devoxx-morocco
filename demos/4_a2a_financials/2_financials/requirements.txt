@@ -1,0 +1,6 @@
+Flask>=3.0
+python-dotenv==1.1.1
+llama-cpp-python[metal]>=0.3.4
+requests>=2.32
+mcp==1.19.0
+spacy>=3.7

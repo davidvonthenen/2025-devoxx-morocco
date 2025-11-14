@@ -1,0 +1,11 @@
+Flask>=3.0
+opensearch-py>=2.6
+sentence-transformers>=3.0
+torch>=2.2
+numpy>=1.26
+tqdm>=4.66
+python-dotenv==1.1.1
+llama-cpp-python[metal]>=0.3.4
+requests>=2.32
+pydantic>=2.7
+spacy>=3.7

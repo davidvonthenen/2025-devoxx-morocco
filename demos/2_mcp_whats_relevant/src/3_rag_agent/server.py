@@ -439,8 +439,7 @@ def _rag_hits_from_response(response: Dict[str, Any]) -> List[Dict[str, Any]]:
 def _compose_messages(question: str, context_block: str) -> List[Dict[str, str]]:
     system_prompt = (
         "You are a fact-focused assistant. "
-        "Only use the context provided below to create a response. "
-        "If the answer is not grounded in the context, respond with 'I don't know.' "
+        "If the answer is not grounded in the snippets, respond with 'I don't know.' "
         "Cite sources inline like [source: ] when drawing from a snippet."
     )
     user_prompt = (
